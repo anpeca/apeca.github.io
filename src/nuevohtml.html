@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale-">
+        <title>Document</title>
+        <style>
+            h1, strong{
+                text-decoration: underline;
+                
+            }
+
+            h1{
+                font-size: max(20px, 20vw) ;/*min (valor1 , valor2)*/
+                
+            }
+            h1 strong{/*para todos los strong dentro de un h1*/
+                color: yellowgreen/*1 em = 16px*/
+                
+           
+            }
+            h1>span{/* al descendiente directo*/
+                background-color: aqua;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Esto<span>esto es span</span> <strong><span>estoy dentro de strong un h1</span></strong> que solo hay uno</h1>
+        <strong> estoy fueraun h1</strong>
+    </body>
+</html>
