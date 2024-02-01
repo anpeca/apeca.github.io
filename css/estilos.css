@@ -1,0 +1,20 @@
+h3{
+    margin-right: 30%;
+}
+div{
+    background-color: chocolate;
+    border: solid black;
+    size: 30px;
+    width: 20vw; 
+    height: 40vh; 
+    opacity: 50%;
+}
+div :hover{
+    opacity: 100%;
+    width: 40vw; 
+    height: 60vh;
+    
+}
+footer{
+    margin-bottom: 60em;
+}
